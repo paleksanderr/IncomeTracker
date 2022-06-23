@@ -1,8 +1,8 @@
 import React from 'react'
 
-function IncomeList() {
+function IncomeList({ income, setIncome }) {
   return (
-    <div className=''>
+    <div className='income-list'>
 
     </div>
   )
