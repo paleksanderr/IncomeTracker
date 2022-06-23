@@ -1,6 +1,6 @@
 import React from 'react'
 
-const IncomeItem = ({ income, index, removeIncome}) => {
+const IncomeItem = ({ income, index, removeIncome }) => {
   let date = new Date(income.date);
   let day = date.getDate();
   let month = date.getMonth() + 1;

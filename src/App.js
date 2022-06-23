@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import IncomeForm from './components/IncomeForm';
 import IncomeList from './components/IncomeList';
-import IncomeItem from './components/IncomeItem';
+
 
 function App() {
   const [income, setIncome ] = useState([]);
@@ -21,7 +21,7 @@ function App() {
       < Header totalIncome={totalIncome} />
       < IncomeForm income={income} setIncome={setIncome}/>
       < IncomeList income={income} setIncome={setIncome}/>
-      <IncomeItem income={income} setIncome={setIncome}/>
+      
     </div>
   );
 }
